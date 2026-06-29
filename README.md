@@ -29,7 +29,7 @@ In addition to standard LMC commands, this implementation includes the **`CHAR` 
 | **OUT** | `902` | Print the current numeric value of the Accumulator to the screen. |
 | **HLT** / **COB** | `000` | Halt execution / Coffee Break. |
 | **DAT** | *None* | Reserves a memory address for data storage. Can be optionally pre-initialized. |
-| **CHAR** | `903` | **EXTRA INSTRUCTION - NOT IN ACTUAL LMC ASSEMBLY** Treats the value in the Accumulator as an ASCII code and prints its character (e.g., `65` -> `'A'`). Does not append a newline. |
+| **CHAR** | `903` | Treats the value in the Accumulator as an ASCII code and prints its character (e.g., `65` -> `'A'`). Does not append a newline. |
 
 ---
 
