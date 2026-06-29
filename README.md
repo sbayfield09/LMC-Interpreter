@@ -27,9 +27,9 @@ In addition to standard LMC commands, this implementation includes the **`CHAR` 
 | **BRP** | `8xx` | Branch to address `xx` if the Accumulator is `0` or positive. |
 | **INP** / **IN** | `901` | Prompt user for a numeric integer input and save to the Accumulator. |
 | **OUT** | `902` | Print the current numeric value of the Accumulator to the screen. |
-| **CHAR** | `903` | **Extended OUTCHAR:** Treats the value in the Accumulator as an ASCII code and prints its character (e.g., `65` -> `'A'`). Does not append a newline. |
 | **HLT** / **COB** | `000` | Halt execution / Coffee Break. |
 | **DAT** | *None* | Reserves a memory address for data storage. Can be optionally pre-initialized. |
+| **CHAR** | `903` | **EXTRA INSTRUCTION - NOT IN ACTUAL LMC ASSEMBLY** Treats the value in the Accumulator as an ASCII code and prints its character (e.g., `65` -> `'A'`). Does not append a newline. |
 
 ---
 
