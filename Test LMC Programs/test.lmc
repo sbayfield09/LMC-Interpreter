@@ -1,0 +1,12 @@
+// Simple program to add two numbers
+INP
+STA NUM1
+INP
+STA NUM2
+LDA NUM1
+ADD NUM2
+OUT
+HLT
+
+NUM1 DAT
+NUM2 DAT

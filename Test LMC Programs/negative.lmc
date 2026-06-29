@@ -1,0 +1,8 @@
+// Program to test negative numbers
+LDA FIVE
+SUB TEN
+OUT
+HLT
+
+FIVE DAT 5
+TEN DAT 10
